@@ -1,4 +1,5 @@
 const express = require("express");
+const { express } = require('express-validator');
 const http = require("http");
 const { initializeAPI } = require("./api");
 
